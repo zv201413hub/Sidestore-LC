@@ -1,0 +1,11 @@
+#!name = SideStore Local Loopback
+#!desc = SideStore 10.7.0.1 device loopback. Requires Loon Build 1007 or later.
+#!homepage = https://loon0x00.github.io/docs/Plugin/#ip-rewrite
+#!system = iOS,iPadOS
+
+[General]
+include-tun = 10.7.0.1/32
+ipv6-vif = off
+
+[IP Rewrite]
+10.7.0.1 = reflect

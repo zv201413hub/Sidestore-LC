@@ -1,0 +1,26 @@
+# Local account / device / signing material belongs outside the public repo.
+private/
+local/
+backups/
+logs/
+.env
+.env.*
+*.local
+*.log
+*.ipa
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+*.mobileconfig
+*.rppairing
+*.pairing
+*.plist
+adi.pb
+anisette_state.json
+preferences.json
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store

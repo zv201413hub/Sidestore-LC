@@ -1,0 +1,11 @@
+[Unit]
+Description=iLoader anisette client compatibility for Advanced Data Protection
+
+[Service]
+Type=notify
+ExecStart=/usr/bin/python3 %h/.local/lib/iloader-anisette-compat/relay.py
+Restart=on-failure
+RestartSec=2
+TimeoutStartSec=10
+NoNewPrivileges=true
+UMask=0077
